@@ -1,4 +1,6 @@
 Mother = ('Grandfather', 'Grandmother')
 Father = ('Grandpa', 'Grandma')
 RELATIVES = ("I", "Brother", Mother, Father)
+print("My mother's father is my" Mother[0])
+print("My father's mother is my" Father[1])
 print("My family consists of", len(RELATIVES)+len(Father)+len(Mother), "members")
