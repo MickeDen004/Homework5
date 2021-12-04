@@ -1,3 +1,4 @@
+from operator import itemgetter
 numerals = {1: 'I',
             2: 'II',
             3: 'III',
@@ -9,6 +10,9 @@ numerals = {1: 'I',
             9: 'IX',
             10: 'X'
             }
+list(numerals.values())
+for i in sorted(numerals.items(), key=itemgetter(1, 0))[::-1]:
+    print(i)
 numerals[1]
 numerals[4]
 numerals[8]
