@@ -10,7 +10,7 @@ character_1 = {'Manufacturer': 'ESP LTD',
                    'Colour': 'Violet Andromeda',
                    'Fretboard': 'Macassar ebony',
                    'Scale': '648 mm',
-                   'Included case': Yes,
+                   'Included case': 'Yes',
                    'Item number': '659304',
                    
                    'Available': 5}
@@ -27,7 +27,7 @@ character_2 =     {'Manufacturer': 'Gibson',
                    'Colour': 'Ebony',
                    'Fretboard': 'Richlite',
                    'Scale': '628 mm',
-                   'Included case': Yes,
+                   'Included case': 'Yes',
                    'Item number': '713078',
                    
                    'Available': 3}
