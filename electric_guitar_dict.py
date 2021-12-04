@@ -32,5 +32,7 @@ character_2 =     {'Manufacturer': 'Gibson',
                    
                    'Available': 3}
 character_2['Additional information'] = ['Made in USA', 'Limited edition','Gold-plated hardware']
+list(character_2.keys())
+list(character_1.values())
 
          
