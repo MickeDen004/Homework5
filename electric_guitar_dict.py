@@ -34,5 +34,7 @@ character_2 =     {'Manufacturer': 'Gibson',
 character_2['Additional information'] = ['Made in USA', 'Limited edition','Gold-plated hardware']
 list(character_2.keys())
 list(character_1.values())
+for key, value in character_1.items():
+	print(key, value)
 
          
