@@ -31,6 +31,6 @@ character_2 =     {'Manufacturer': 'Gibson',
                    'Item number': '713078',
                    
                    'Available': 3}
-
+character_2['Additional information'] = ['Made in USA', 'Limited edition','Gold-plated hardware']
 
          
